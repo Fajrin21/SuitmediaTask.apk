@@ -52,7 +52,7 @@ class AccountRow : AppCompatActivity(), UsersAdapter.OnItemClickListener {
 
         recyclerView = findViewById(R.id.rv_account)
         swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout)
-        emptyStateTextView = findViewById(R.id.emptyStateTextView) // Initialize TextView
+        emptyStateTextView = findViewById(R.id.emptyStateTextView)
 
 
         usersAdapter = UsersAdapter(this, emptyList(), this)

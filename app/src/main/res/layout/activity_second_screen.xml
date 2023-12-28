@@ -57,6 +57,7 @@
         android:layout_marginTop="188dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/button"
+        android:textColor="@color/white"
         android:text="@string/choose_button"
         app:backgroundTint="@color/button"
         app:layout_constraintBottom_toBottomOf="parent"
