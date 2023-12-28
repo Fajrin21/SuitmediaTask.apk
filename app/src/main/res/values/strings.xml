@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SuitmediaAPK</string>
+
+    <!--Screen1-->
+    <string name="no_name">Name Cannot Be Empty</string>
+    <string name="if_palindrome">Is Palindrome</string>
+    <string name="if_not_palindrome">Not Palindrome</string>
+    <string name="check_button">CHECK</string>
+    <string name="next_button">NEXT</string>
+    <string name="name_et">NEXT</string>
+    <string name="palindrome_et">NEXT</string>
+
+    <!--Screen2-->
+    <string name="welcome">Welcome</string>
+    <string name="user">User</string>
+    <string name="selected_user">Selected User Name</string>
+    <string name="choose_button">Choose a user</string>
+
+    <!--Screen3-->
+    <string name="profpic">Profile picture</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email@Email.com</string>
+    <string name="try_again">Try again</string>
+    <string name="Screen3">Third Screen</string>
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:background="@drawable/screen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ic_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <com.example.suitmediaapk.customview.CVName
+        android:id="@+id/CVName"
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        android:background="@drawable/border"
+        android:hint="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <EditText
+        android:id="@+id/CVPalindrome2"
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        android:background="@drawable/border"
+        android:hint="Palindrome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="212dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/button"
+        android:text="@string/check_button"
+        app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/CVPalindrome2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/CVPalindrome2" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/button"
+        android:text="@string/next_button"
+        app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCheck"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonCheck"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCheck"
+        app:layout_constraintVertical_bias="0.035" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
